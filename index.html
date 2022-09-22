@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        h4 {
+
+            display: flex;
+
+            flex-direction: row;
+
+        }
+
+        h4:before,
+        h4:after {
+            content: "";
+
+            flex: 1 1;
+
+            border-bottom: 2px solid rgb(225, 225, 225);
+
+            margin: auto;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+    <div class="cram">Cramazon</div>
+    <div class="card container" style="width: 27rem; margin-top: auto;">
+        <div class="card-body">
+            <p>
+            <div>
+                <h1>Sign-in</h1>
+                <p>Email(phone for mobile accounts)</p>
+            </div>
+            <div class="input-group flex-nowrap xxformel">
+                <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+            <div>
+                <p class="xxpass">Password</p><a href="" class="xxlinks">Forgot your password?</a>
+            </div>
+            <div class="input-group flex-nowrap xxformel">
+                <input type="text" class="form-control" aria-label="Password" aria-describedby="addon-wrapping">
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary xxbutt" type="button">Sign-in</button>
+                <p>By continuing you agee to Amazon's <a href="">Conditions of Use</a> and <a href="">Privacy
+                        Notice.</a></p>
+                </p>
+            </div>
+            <div class="card-body">
+
+                <div class="form-check xxcheck">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Keep me signed in. Details
+                    </label>
+                </div>
+                <div>
+                    <br>
+                    <h4>New to Amazon?</h4> <br>
+                </div>
+
+                <div class="d-grid gap-2 ">
+                    <button class="btn btn-primary xxxbutt" type="button">Create your Amazon account</button>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
